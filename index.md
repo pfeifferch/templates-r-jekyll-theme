@@ -1,11 +1,11 @@
 ---
-layout: multipage
-title: Headers
+layout: default
+title: headers
 order: "0"
 #navtitle:
 #outputclass:
 ---
-
+ 
 # Header 1A
 Nisi cillum ullamco Lorem cupidatat.
 
@@ -29,4 +29,4 @@ Laboris minim pariatur magna excepteur amet quis elit est minim est.
 
 
 # Header 1C
-Laboris minim pariatur magna excepteur amet quis elit est minim est.
+Laboris minim pariatur magna excepteur amet quis elit est minim est.  

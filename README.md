@@ -1,2 +1,1 @@
-# r-jekyll-theme
-A red and bold Jekyll portfolio theme.
+# [sample implementation: r-jekyll-theme](https://rafalkaron.github.io/r-jekyll-theme)

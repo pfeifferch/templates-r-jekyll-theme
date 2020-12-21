@@ -1,12 +1,12 @@
 ---
-layout: multipage
-title: Content
+layout: default
+title: content
 order: "1"
 #navtitle:
 #outputclass:
 ---
 {% include glossary.md %}
-# Formatting
+# Formatting 
 
 ## Basic
 **Bold**  
@@ -39,7 +39,7 @@ Title A
 Title B
 : Description B
 
-## Items
+## Items list
 - Item A
 - Item B
 - Item C
