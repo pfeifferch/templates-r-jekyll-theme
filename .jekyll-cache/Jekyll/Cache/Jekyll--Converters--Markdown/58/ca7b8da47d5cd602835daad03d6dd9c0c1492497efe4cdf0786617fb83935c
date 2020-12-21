@@ -1,0 +1,172 @@
+I"<h1 id="formatting">Formatting</h1>
+
+<h2 id="basic">Basic</h2>
+<p><strong>Bold</strong><br />
+<em>Italic</em><br />
+<del>strikethrough</del></p>
+
+<h2 id="extended">Extended</h2>
+<p class="text_large">Large text</p>
+
+<p class="text_small">Small text</p>
+
+<h1 id="lists">Lists</h1>
+
+<h2 id="unordered-list">Unordered list</h2>
+<ul>
+  <li>Item A</li>
+  <li>Item B</li>
+  <li>Item C</li>
+</ul>
+
+<h2 id="ordered-list">Ordered list</h2>
+<ol>
+  <li>Item A</li>
+  <li>Item B</li>
+  <li>Item C</li>
+</ol>
+
+<h2 id="definition-list">Definition list</h2>
+<dl>
+  <dt>Title A</dt>
+  <dd>Description A</dd>
+  <dt>Title B</dt>
+  <dd>Description B</dd>
+</dl>
+
+<h2 id="items">Items</h2>
+<ul class="items">
+  <li>Item A</li>
+  <li>Item B</li>
+  <li>Item C</li>
+</ul>
+
+<h1 id="tables">Tables</h1>
+<h2 id="table-with-a-header">Table with a header</h2>
+
+<table>
+  <thead>
+    <tr>
+      <th>Header text</th>
+      <th> </th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>Item A</td>
+      <td>Item B</td>
+    </tr>
+    <tr>
+      <td>Item C</td>
+      <td>Item D</td>
+    </tr>
+  </tbody>
+</table>
+
+<h2 id="table-without-a-header">Table without a header</h2>
+
+<table>
+  <tbody>
+    <tr>
+      <td>Item A</td>
+      <td>Item B</td>
+    </tr>
+    <tr>
+      <td>Item C</td>
+      <td>Item D</td>
+    </tr>
+  </tbody>
+</table>
+
+<h1 id="code">Code</h1>
+
+<h2 id="inline-code">Inline code</h2>
+<p><code class="language-plaintext highlighter-rouge">@import</code></p>
+
+<h2 id="codeblock">Codeblock</h2>
+
+<div class="language-scss highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="cm">/* Style note containers */</span>
+<span class="nc">.note</span><span class="o">,</span>
+<span class="nc">.note_warning</span><span class="o">,</span>
+<span class="nc">.note_caution</span><span class="o">,</span>
+<span class="nc">.note_tip</span> <span class="p">{</span>
+    <span class="nl">padding</span><span class="p">:</span> <span class="m">0</span><span class="mi">.5rem</span> <span class="m">1rem</span><span class="p">;</span>
+    <span class="nl">background-color</span><span class="p">:</span> <span class="nv">$background-middle</span><span class="p">;</span>
+    <span class="nl">display</span><span class="p">:</span> <span class="nb">block</span><span class="p">;</span>
+    <span class="nl">border-left</span><span class="p">:</span> <span class="nv">$border</span><span class="p">;</span>
+    <span class="nl">font-size</span><span class="p">:</span> <span class="m">1</span><span class="mi">.4rem</span><span class="p">;</span>
+    <span class="nl">border-radius</span><span class="p">:</span> <span class="nv">$border-radius</span><span class="p">;</span>
+<span class="p">}</span>
+
+<span class="cm">/* Style note captions */</span>
+<span class="err">.</span><span class="na">note</span><span class="p">:</span><span class="o">:</span><span class="n">before</span><span class="o">,</span>
+<span class="o">.</span><span class="n">note_warning</span><span class="o">::</span><span class="n">before</span><span class="o">,</span>
+<span class="o">.</span><span class="n">note_caution</span><span class="o">::</span><span class="n">before</span><span class="o">,</span>
+<span class="o">.</span><span class="n">note_tip</span><span class="o">::</span><span class="n">before</span> <span class="p">{</span>
+    <span class="nl">white-space</span><span class="p">:</span> <span class="n">pre</span><span class="p">;</span>
+    <span class="nl">font-size</span><span class="p">:</span> <span class="nb">inherit</span><span class="p">;</span>
+    <span class="nl">display</span><span class="p">:</span> <span class="n">inline-block</span><span class="p">;</span>
+    <span class="nl">font-weight</span><span class="p">:</span> <span class="nb">bold</span><span class="p">;</span>
+    <span class="nl">font-size</span><span class="p">:</span> <span class="m">1</span><span class="mi">.4rem</span><span class="p">;</span>
+<span class="p">}</span>
+
+<span class="cm">/* Provide note captions */</span>
+<span class="err">.</span><span class="na">note</span><span class="p">:</span><span class="o">:</span><span class="n">before</span> <span class="p">{</span>
+    <span class="nl">content</span><span class="p">:</span> <span class="s2">"NOTE: "</span><span class="p">;</span>
+<span class="p">}</span>
+
+<span class="err">.</span><span class="na">note_warning</span><span class="p">:</span><span class="o">:</span><span class="n">before</span> <span class="p">{</span>
+    <span class="nl">content</span><span class="p">:</span> <span class="s2">"WARNING: "</span><span class="p">;</span>
+<span class="p">}</span>
+
+<span class="err">.</span><span class="na">note_caution</span><span class="p">:</span><span class="o">:</span><span class="n">before</span> <span class="p">{</span>
+    <span class="nl">content</span><span class="p">:</span> <span class="s2">"CAUTION: "</span><span class="p">;</span>
+<span class="p">}</span>
+
+<span class="err">.</span><span class="na">note_tip</span><span class="p">:</span><span class="o">:</span><span class="n">before</span> <span class="p">{</span>
+    <span class="nl">content</span><span class="p">:</span> <span class="s2">"TIP: "</span><span class="p">;</span>
+<span class="p">}</span>
+</code></pre></div></div>
+
+<h1 id="links">Links</h1>
+
+<p><a href="404">404</a><br />
+<a href="https://www.google.com">Google</a></p>
+
+<h1 id="images">Images</h1>
+<p><img src="assets/bicycle.jpg" alt="A bike" width="350px" /></p>
+
+<h1 id="notes">Notes</h1>
+
+<p class="note">Laboris anim cupidatat do tempor fugiat qui aute magna nostrud sint reprehenderit cupidatat.</p>
+
+<p class="note_tip">Irure nulla aliquip officia enim ut dolor adipisicing non adipisicing.</p>
+
+<p class="note_warning">Officia quis eu Lorem quis ex dolore non veniam ex ad.</p>
+
+<p class="note_caution">Minim officia esse nulla consectetur ut non et officia tempor consequat tempor.</p>
+
+<h1 id="abbreviations">Abbreviations</h1>
+<p><abbr title="Subject Matter Expert">SME</abbr></p>
+
+<h1 id="quote">Quote</h1>
+<blockquote>
+  <p>block quote line<br />
+block quote line<br />
+block quote line</p>
+</blockquote>
+
+<h1 id="columns">Columns</h1>
+
+<h2 id="two-columns">Two columns</h2>
+<p class="two_column">Cillum sint nisi voluptate ad est adipisicing enim mollit fugiat aliqua nostrud aute sit mollit. Ex cillum in minim culpa veniam deserunt. Ullamco ad anim commodo qui eiusmod exercitation aliqua id amet tempor. Minim ex amet incididunt ad adipisicing ut aliqua cillum quis amet. Incididunt dolor aliquip non tempor duis occaecat amet nulla reprehenderit. Ullamco ea consectetur cillum nulla fugiat deserunt.</p>
+
+<h2 id="three-columns">Three columns</h2>
+<p class="three_column">Sunt voluptate ex elit ullamco cillum reprehenderit ea sunt proident et adipisicing sunt qui. Pariatur laboris adipisicing adipisicing fugiat commodo aliquip mollit incididunt magna. Exercitation ullamco nisi cupidatat Lorem fugiat deserunt sit nulla sit voluptate sunt. Sunt sunt proident id proident ad cupidatat quis anim do. Mollit exercitation commodo do ullamco occaecat ex eu deserunt excepteur reprehenderit dolor sunt. Id deserunt ad pariatur mollit laborum deserunt duis ullamco proident enim culpa aliqua. Aute consequat in proident enim ullamco aliquip quis.</p>
+
+<h2 id="four-columns">Four columns</h2>
+<p class="four_column">Ut est sit voluptate esse non sunt ea mollit. Anim est cillum sit deserunt pariatur nostrud esse nulla. Irure est eiusmod officia incididunt sit voluptate sunt. Ad dolor commodo nostrud id et ipsum proident commodo sit velit ullamco. Ut est sit voluptate esse non sunt ea mollit. Anim est cillum sit deserunt pariatur nostrud esse nulla. Irure est eiusmod officia incididunt sit voluptate sunt. Ad dolor commodo nostrud id et ipsum proident commodo sit velit ullamco.</p>
+
+<h1 id="print-button">Print button</h1>
+<p><input id="print-button" class="screen" type="button" value="Print Content" onclick="window.print()" /></p>
+:ET
