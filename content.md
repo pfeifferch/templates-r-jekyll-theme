@@ -39,7 +39,7 @@ Title A
 Title B
 : Description B
 
-## Items
+## Items list
 - Item A
 - Item B
 - Item C
