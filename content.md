@@ -154,4 +154,3 @@ Ut est sit voluptate esse non sunt ea mollit. Anim est cillum sit deserunt paria
 {:.four_column}
 
 # Print button
-{% include print/print_button.html %} 
