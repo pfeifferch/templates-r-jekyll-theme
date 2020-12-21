@@ -1,5 +1,5 @@
 ---
-layout: multipage
+layout: default
 title: Headers
 order: "0"
 #navtitle:
