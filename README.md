@@ -1,4 +1,4 @@
-# r
+# r-jekyll-theme
 
 A simple red Jekyll theme perfect for portfolios and resumes.
 
@@ -7,13 +7,13 @@ A simple red Jekyll theme perfect for portfolios and resumes.
 Add this line to your Jekyll site's `Gemfile`:
 
 ```ruby
-gem "r"
+gem "r-jekyll-theme"
 ```
 
 And add this line to your Jekyll site's `_config.yml`:
 
 ```yaml
-theme: r
+theme: r-jekyll-theme
 ```
 
 And then execute:
@@ -22,7 +22,7 @@ And then execute:
 
 Or install it yourself as:
 
-    $ gem install r
+    $ gem install r-jekyll-theme
 
 ## Usage
 
