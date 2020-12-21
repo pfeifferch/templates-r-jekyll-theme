@@ -5,7 +5,6 @@ order: "1"
 #navtitle:
 #outputclass:
 ---
-{% include glossary.md %}
 # Formatting
 
 ## Basic
