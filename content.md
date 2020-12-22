@@ -154,5 +154,5 @@ Sunt voluptate ex elit ullamco cillum reprehenderit ea sunt proident et adipisic
 Ut est sit voluptate esse non sunt ea mollit. Anim est cillum sit deserunt pariatur nostrud esse nulla. Irure est eiusmod officia incididunt sit voluptate sunt. Ad dolor commodo nostrud id et ipsum proident commodo sit velit ullamco. Ut est sit voluptate esse non sunt ea mollit. Anim est cillum sit deserunt pariatur nostrud esse nulla. Irure est eiusmod officia incididunt sit voluptate sunt. Ad dolor commodo nostrud id et ipsum proident commodo sit velit ullamco.
 {:.four_column}
 
-# Print button
+# Print button {:.screen}
 {% include print/print_button.html %} 
