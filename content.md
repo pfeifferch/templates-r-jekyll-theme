@@ -6,7 +6,7 @@ order: "1"
 #outputclass:
 ---
 {% include glossary.md %}
-# Formatting
+# Formatting 
 
 ## Basic
 **Bold**  
