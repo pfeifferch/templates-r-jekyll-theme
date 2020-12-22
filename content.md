@@ -1,10 +1,11 @@
 ---
 layout: default
-title: Content
+title: content
 order: "1"
 #navtitle:
 #outputclass:
 ---
+{% include glossary.md %}
 # Formatting
 
 ## Basic
@@ -154,3 +155,4 @@ Ut est sit voluptate esse non sunt ea mollit. Anim est cillum sit deserunt paria
 {:.four_column}
 
 # Print button
+{% include print/print_button.html %} 

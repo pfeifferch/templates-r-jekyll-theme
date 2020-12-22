@@ -1,6 +1,6 @@
 ---
 layout: default
-title: Headers
+title: headers
 order: "0"
 #navtitle:
 #outputclass:
