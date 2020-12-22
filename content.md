@@ -1,5 +1,5 @@
 ---
-layout: multipage
+layout: default
 title: Content
 order: "1"
 #navtitle:
