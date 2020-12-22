@@ -1,1 +1,1 @@
-# [r-jekyll-theme - sample implementation](https://github.com/rafalkaron/r-jekyll-theme)
+# [sample implementation: r-jekyll-theme](https://rafalkaron.github.io/r-jekyll-theme)
