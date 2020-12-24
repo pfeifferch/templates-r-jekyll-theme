@@ -2,7 +2,6 @@
 layout: default
 title: headers
 order: "0"
-#navtitle:
 ---
  
 # Header 1A
@@ -27,4 +26,4 @@ Qui laborum deserunt pariatur veniam et est laborum.
 Laboris minim pariatur magna excepteur amet quis elit est minim est.
 
 # Header 1C
-Laboris minim pariatur magna excepteur amet quis elit est minim est.  
+Laboris minim pariatur magna excepteur amet quis elit est minim est mni.  
