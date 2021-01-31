@@ -5,7 +5,6 @@ description: Site description
 keywords: comma, separated, keywords
 since: 2020
 logo: "Red"
-baseurl: https://rafalkaron.github.io/r-jekyll-theme/
 
 ### Contact data
 contact:
