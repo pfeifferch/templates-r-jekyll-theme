@@ -53,7 +53,7 @@ kramdown:
 ### github-pages-remote theme
 plugins:
   - jekyll-remote-theme
-remote_theme: rafalkaron/r-jekyll-theme/main
+remote_theme: rafalkaron/r-jekyll-theme@main
 
 ### Uncomment for gem-based theme
 #theme: r-jekyll-theme
