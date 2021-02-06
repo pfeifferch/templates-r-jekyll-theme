@@ -51,9 +51,9 @@ kramdown:
   input: GFM
 
 ### github-pages-remote theme
-plugins:
-  - jekyll-remote-theme
-remote_theme: rafalkaron/r-jekyll-theme@main
+#plugins:
+#  - jekyll-remote-theme
+#remote_theme: rafalkaron/r-jekyll-theme@main
 
 ### Uncomment for gem-based theme
 #theme: r-jekyll-theme
