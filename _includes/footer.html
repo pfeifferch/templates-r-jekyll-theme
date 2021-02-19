@@ -11,6 +11,6 @@
         {% endfor %}
         {%- endif %}
     </div>
-    <div class="footer-column footer-copyright">Copyright © {{site.since}}-{{ 'now' | date: "%Y" }} <a
+    <div class="footer-column footer-copyright">Copyright © {%- if site.contact %}{{site.since}}{%- endif -%}-{{ 'now' | date: "%Y" }} <a
             class="footer-link" href="{{site.email.href}}{{site.email.id}}" target="blank">{{site.author}}</a>.</div>
 </footer>
