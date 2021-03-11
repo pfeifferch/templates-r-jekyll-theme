@@ -40,7 +40,7 @@ contact:
         icon_dark: "/assets/icons/500px_dark.svg"
 
 ### Site configuration
-permalink: blog/:categories/:title/
+permalink: blog/:categories/ #:title/
 livereload: true
 exclude:
     - LICENSE
@@ -49,6 +49,8 @@ exclude:
     - README.md
     - r-jekyll-theme.gemspec
     - r-jekyll-theme-0.1.2.gem
+    - 404.md
+    - 404.html
 markdown: kramdown
 kramdown:
     input: GFM
